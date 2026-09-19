@@ -31,4 +31,4 @@ async def social(ctx):
     await ctx.send(messaggio)
 
 # Il tuo token è perfetto e inserito correttamente
-bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GqRAXg.HrenqW0byl0jPm7O0Iy06Xvfb5AjKetxsdYFcg')
+bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GuzTcU.vY6NzW71MdflqfHmUSbZLHZJmUGKLE3961o-9M')
