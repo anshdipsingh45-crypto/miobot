@@ -31,5 +31,4 @@ async def social(ctx):
     await ctx.send(messaggio)
 
 # Incolla il tuo Token qui sotto
-bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GwWFHL.4ytDDyFBdodPGa1NDCNCYT4QdUui8TlTS1xUIA
-')
+bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GwWFHL.4ytDDyFBdodPGa1NDCNCYT4QdUui8TlTS1xUIA')
