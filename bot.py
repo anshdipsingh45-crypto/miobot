@@ -30,4 +30,4 @@ async def social(ctx):
     )
     await ctx.send(messaggio)
 
-bot.run('394c178c03ac7f2c2165f2dfb644d60fba32cbd48066a72ded54345be55e21fa')
+bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GqRAXg.HrenqW0byl0jPm7O0Iy06Xvfb5AjKetxsdYFcg')
