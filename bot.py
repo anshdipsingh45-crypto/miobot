@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import os
 
 # Configurazione dei permessi (Intents)
 intents = discord.Intents.default()
@@ -19,16 +20,16 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send("Pong!")
 
-# Comando !social corretto con gli "a capo" e i link funzionanti
+# Comando !social corretto
 @bot.command()
 async def social(ctx):
     messaggio = (
         "🌟 **Ecco i nostri canali ufficiali:**\n\n"
-        "📱 **YouTube:** http://www.youtube.com/@GISCU-h4y\n"
+        "📱 **YouTube:** http://youtube.com\n"
         "🎮 **Twitch:** https://twitch.tv\n\n"
-        "📌 *Seguici per non perderti le prossime dirette e i video!*"
+        "📌 *Seguici per non perderti le próximas dirette e i video!*"
     )
     await ctx.send(messaggio)
 
-# Il tuo token è perfetto e inserito correttamente
-bot.run('MTU1MDc5MTk3ODM3ODMzODMzNA.GuzTcU.vY6NzW71MdflqfHmUSbZLHZJmUGKLE3961o-9M')
+# Questa riga nasconde il token in modo sicuro
+bot.run(os.environ.get('DISCORD_TOKEN'))
